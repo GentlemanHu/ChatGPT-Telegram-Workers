@@ -17,7 +17,8 @@ build: clean
 
 .PHONY: clean
 clean:
-	rm -f $(TIMESTAMP_FILE) $(BUILD_INFO_JSON) $(OUTPUT_FILE)
+	echo "hellop"
+	#rm -f $(TIMESTAMP_FILE) $(BUILD_INFO_JSON) $(OUTPUT_FILE)
 
 .PHONY: lint
 lint:
